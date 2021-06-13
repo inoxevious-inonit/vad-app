@@ -11,15 +11,15 @@ from generate_xml import GenerateXMLFile as xml_generator
 from utilities import *
 
 
-# create app server
-app = Flask(__name__)
+# create application server
+application = Flask(__name__)
 
 
-@app.route("/")
+@application.route("/")
 def hello():
     return "Hello VAD"
 
-@app.route('/api/xml_download', methods=['GET'])
+@application.route('/api/xml_download', methods=['GET'])
 def get_file():
     request_json = request.get_json()
     xml_data = GenerateXML(request_json)
@@ -73,5 +73,5 @@ def GenerateXML(request_json) :
 
 # Driver Code
 if __name__ == "__main__": 
-    app.run(debug=True)
+    application.run(host='0.0.0.0', debug=True)
     # GenerateXML("Catalog.xml")
