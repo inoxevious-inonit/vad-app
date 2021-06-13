@@ -1,0 +1,151 @@
+<BatchCollection 
+xmlns="http://www.dnbnorfinans.no/Factoring/2004" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD" 
+Version="3.0" DefinedBy="DnB NOR Finans"
+>
+<TransferDateTime>2020-11-03T14:54:10</TransferDateTime>
+<Batch>
+<ClientId>09891</ClientId>
+<ClientName>VAD AS</ClientName>
+<BatchDate>2020-11-03</BatchDate>
+<BatchNbr>1</BatchNbr>
+<Invoice>
+<InvType>Invoice</InvType>
+<InvCcy>NOK</InvCcy>
+<Debtor>
+<DebtorName>Lindbak InteriÃ¸r Oslo as</DebtorName>
+<ClientDebtorNbr>104900</ClientDebtorNbr>
+<DebtorVATNbr>NO 911 106 817 MVA</DebtorVATNbr>
+<DebtorPostalAddr>Postboks 2435 Torgard</DebtorPostalAddr>
+<DebtorSuplAddr>Ã˜stensjÃ¸veien 29</DebtorSuplAddr>
+<DebtorPostalCode>7005</DebtorPostalCode>
+<DebtorCity>TRONDHEIM</DebtorCity>
+<DebtorCtryCode>NO</DebtorCtryCode>
+<DebtorPhone>22 42 22 14</DebtorPhone>
+<DebtorEmail>lindbak-kontor@lindbak.no</DebtorEmail>
+<DebtorRef>Bente Scheen</DebtorRef>
+</Debtor>
+<DeliveryDetails>
+<DeliveryName>Lindbak InteriÃ¸r Oslo as</DeliveryName>
+<DeliveryAddr>Ã˜stensjÃ¸veien 29</DeliveryAddr>
+<DeliveryPostalCode>7005</DeliveryPostalCode>
+<DeliveryCity>TRONDHEIM</DeliveryCity>
+<DeliveryCtryCode>NO</DeliveryCtryCode>
+<DeliveryDate>2020-11-03</DeliveryDate>
+<DeliveryType>Bring Cargo</DeliveryType>
+<DeliveryTerms>DDP</DeliveryTerms>
+</DeliveryDetails>
+<InvoiceHeader>
+<InvNbr>26738</InvNbr>
+<InvDate>2020-11-03</InvDate>
+<DueDate>2020-12-03</DueDate>
+<PmtTerms>
+<PmtTermsText>Netto pr 30 dager</PmtTermsText>
+</PmtTerms>
+<OrderRef>30555</OrderRef>
+<Kid>609891000267382</Kid>
+</InvoiceHeader>
+<Items>
+<OrderDetails>
+<Item>
+<ItemId>4093sua</ItemId>
+<ItemDescr>Santana 3-seter uten armlener</ItemDescr>
+<NbrOfUnits>1</NbrOfUnits>
+<UnitPrice>10727</UnitPrice>
+<DiscPercent>55</DiscPercent>
+<Amt>4827.15</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>409hj</ItemId>
+<ItemDescr>Santana hjÃ¸rne</ItemDescr>
+<NbrOfUnits>2</NbrOfUnits>
+<UnitPrice>10271</UnitPrice>
+<DiscPercent>55</DiscPercent>
+<Amt>9243.9</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>4093sua</ItemId>
+<ItemDescr>Santana 3-seter uten armlener</ItemDescr>
+<NbrOfUnits>1</NbrOfUnits>
+<UnitPrice>15244</UnitPrice>
+<DiscPercent>55</DiscPercent>
+<Amt>6859.8</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>4092sua</ItemId>
+<ItemDescr>Santana 2-seter uten armlener</ItemDescr>
+<NbrOfUnits>2</NbrOfUnits>
+<UnitPrice>8398</UnitPrice>
+<DiscPercent>55</DiscPercent>
+<Amt>7558.2</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>409av12</ItemId>
+<ItemDescr>Santana armlen (12 cm) VSSF</ItemDescr>
+<NbrOfUnits>1</NbrOfUnits>
+<UnitPrice>2685</UnitPrice>
+<DiscPercent>55</DiscPercent>
+<Amt>1208.25</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>409ah12</ItemId>
+<ItemDescr>Santana armlen (12 cm) HSSF</ItemDescr>
+<NbrOfUnits>1</NbrOfUnits>
+<UnitPrice>2685</UnitPrice>
+<DiscPercent>55</DiscPercent>
+<Amt>1208.25</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>santbeinvalg</ItemId>
+<ItemDescr>Santana Bein</ItemDescr>
+<NbrOfUnits>2</NbrOfUnits>
+<UnitPrice>590</UnitPrice>
+<DiscPercent>55</DiscPercent>
+<Amt>531</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>santbeinvalg</ItemId>
+<ItemDescr>Santana Bein</ItemDescr>
+<NbrOfUnits>8</NbrOfUnits>
+<UnitPrice>0</UnitPrice>
+<DiscPercent>0</DiscPercent>
+<Amt>0</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>santbeinvalg</ItemId>
+<ItemDescr>Santana Bein</ItemDescr>
+<NbrOfUnits>4</NbrOfUnits>
+<UnitPrice>0</UnitPrice>
+<DiscPercent>0</DiscPercent>
+<Amt>0</Amt>
+<VATPct>25</VATPct>
+</Item>
+<Item>
+<ItemId>ass</ItemId>
+<ItemDescr>Assuranse</ItemDescr>
+<NbrOfUnits>1</NbrOfUnits>
+<UnitPrice>213.77</UnitPrice>
+<DiscPercent>0</DiscPercent>
+<Amt>213.77</Amt>
+<VATPct>25</VATPct>
+</Item>
+</OrderDetails>
+</Items>
+<Total>
+<NetAmt>31650.32</NetAmt>
+<VATAmt>7912.58</VATAmt>
+<TotalAmt>39562.9</TotalAmt>
+</Total>
+<AssignClause>Fordringer etter nÃ¦rvÃ¦rende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandÃ¸r.</AssignClause>
+</Invoice>
+</Batch>
+</BatchCollection>
