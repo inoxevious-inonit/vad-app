@@ -40,9 +40,14 @@ def get_file():
         file = files.write(xml_file)
     file_path = full_path + '/' + fileName
     print('file_path', file_path)
-    return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
-
-
+    if file_path is None:
+        self.Error(400)
+    try:
+        return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
+    except Exception as e:
+        self.log.exception(e)
+        self.Error(400)
+    
 # define a function to
 # convert a simple dictionary
 # of key/value pairs into XML
