@@ -13,7 +13,7 @@ from utilities import *
 from flask import send_from_directory,send_file
 
 # create  
-application = Flask(__name__)
+application = Flask(__name__, template_folder='templates')
 
 @application.route("/")
 def hello():
@@ -43,12 +43,10 @@ def get_file():
     if file_path is None:
         self.Error(400)
     try:
-        # return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
-        return send_from_directory(directory=full_path, filename=fileName)
+        return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
+        # return send_from_directory(directory=full_path, filename=fileName)
     except Exception as e:
-        log = self.log.exception(e)
-        self.Error(400)
-        return render_template("index.html", message=log)
+        return render_template("index.html", message=e)
 
     
 # define a function to
