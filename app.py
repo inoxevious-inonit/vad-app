@@ -7,68 +7,50 @@ from xmlrpc.server import SimpleXMLRPCServer
 import wget
 import xmlrpc.client
 from xml.etree.ElementTree import Element,tostring
+
 from generate_xml import GenerateXMLFile as xml_generator
 from utilities import *
+from flask import send_from_directory,send_file
 
-
-# create application server
+# create  
 application = Flask(__name__)
-
 
 @application.route("/")
 def hello():
     return "Hello VAD"
 
-@application.route('/api/xml_download', methods=['GET'])
+@application.route('/api/xml_download', methods=['GET','POST'])
 def get_file():
-    request_json = request.get_json()
-    xml_data = GenerateXML(request_json)
-    # print('file', tostring(xml_data))
-    # return xml file
+    # request_json = request.get_json()("{",
+    request_json = request.args.get("records")
+    request_json =request_json.replace("{", "")
+    request_json =request_json.replace("}", "")
+    request_json =request_json.replace(",", " ")
+    print('request_json', request_json)
+
+    ids = [int(n) for n in request_json.split()]
+    print('ids', ids)
+    xml_data = GenerateXML(ids)
+    print(application.root_path)
+    full_path = os.path.join(application.root_path)
+    print(full_path)
     xml_file = tostring(xml_data)
     fileName = 'training_gunnar_Invoice_file.xml'
     with open (fileName, "wb") as files :
         file = files.write(xml_file)
-    return 'file'
-
-def Get_InvoiceData():
-    # Query the invoice data from model
-    try:
-        # get invoices list
-        invoices_list = models_object.execute_kw(db, uid, password,
-        'account.move', 'search',
-            [[['is_move_sent', '=', False]]])
-
-        for rec in invoices_list:
-            [record] = models_object.execute_kw(db, uid, password,
-                'account.move', 'read', [rec])
-            # print("============================INVOICE===================")
-            # print('record',[record])
-            # print("============================INVOICE ITEMS===================")
-            items = models_object.execute_kw(db, uid, password,
-                    'account.move.line', 'search_read',
-                    [[['move_name', '=', record['name']]]],
-                    # {'fields': ['name', 'move_id','quantity', 'price_total', 'price_unit', 'discount', 'tax_base_amount']}
-                    )
-            # print(items)
-
-    except Exception as err:
-        # Print any error messages to stdout
-        print(err)
-    return invoices_list
+    file_path = full_path + '/' + fileName
+    return send_file(file_path, as_attachment=True, download_name='')
 
 
 # define a function to
 # convert a simple dictionary
 # of key/value pairs into XML
-def GenerateXML(request_json) :
-    fileName = 'Invoices.xml'
+def GenerateXML(ids) :
     try:
-        invoices_list = Get_InvoiceData()
-        xml_data = xml_generator(invoices_list)
+        
+        xml_data = xml_generator(ids)
     except Exception as err:
         print(err)
-
     return xml_data
 
 # Driver Code

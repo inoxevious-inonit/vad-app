@@ -1,5 +1,27 @@
 <BatchCollection 
 Jd4J2m2iaPcUXCN
+root@144.91.111.46
+env PATH=/var/www/html/vad_env/bin
+chdir /var/www/html/vad/vad-app
+exec gunicorn --workers 3 --bind unix:vadapp.sock -m 007 wsgi
+sudo nano  /etc/nginx/sites-available/vadapp.vadapp.com
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /var/www/vad/;
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name vadapp.vadapp.com www.vadapp.vadapp.com
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+}
+
+sudo ln -s /etc/nginx/sites-available/vadapp.vadapp.com /etc/nginx/sites-enabled
+
+
 xmlns="http://www.dnbnorfinans.no/Factoring/2004" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD" 

@@ -45,21 +45,21 @@ def GenerateXMLFile(invoices_list):
     # get invoices list
     try:
         # get invoices list
-        invoices_list = models_object.execute_kw(db, uid, password,
-        'account.move', 'search',
-            [[['is_move_sent', '=', False]]])
+        # invoices_list = models_object.execute_kw(db, uid, password,
+        # 'account.move', 'search',
+        #     [[['is_move_sent', '=', False]]])
         
-        # print('list',invoices_list)
+        print('list',invoices_list)
 
         for rec in invoices_list:
             print('rec', rec)
             record = models_object.execute_kw(db, uid, password,
                 'account.move', 'read', [rec])
 
-            print("============================INVOICE===================")
+            # print("============================INVOICE===================")
             # print('record',[record])
             for invoice in record:
-                print('invoice', invoice)
+                # print('invoice', invoice)
                 print('dsop',invoice['invoice_partner_display_name'])
 
             # invoice tag
@@ -77,7 +77,7 @@ def GenerateXMLFile(invoices_list):
                     [invoices_list]
                     # ,{'fields': ['name', 'country_id', 'comment']}
                     )
-            print("============================debtors===================")
+            # print("============================debtors===================")
             # print('Debtors', debtors)
             
             for debtor in debtors:
@@ -135,8 +135,8 @@ def GenerateXMLFile(invoices_list):
 
         # <DeliveryDetails>
                     delivery_tag = ET.SubElement(invoice_tag,'DeliveryDetails')
-                    print('================================SALES===========================')
-                    print('com prt', invoice['commercial_partner_id'][0])
+                    # print('================================SALES===========================')
+                    # print('com prt', invoice['commercial_partner_id'][0])
                     partner_id = invoice['commercial_partner_id'][0]
                     sales = models_object.execute_kw(
                         db, uid, password, 'sale.order', 'search_read',
@@ -145,7 +145,7 @@ def GenerateXMLFile(invoices_list):
                         )
                     for sale_data in sales:
                         
-                        print('sales idddd', sale_data)               
+                        # print('sales idddd', sale_data)               
                         # <DeliveryName>Lindbak InteriÃ¸r Oslo as</DeliveryName>
                         DeliveryName = ET.SubElement(delivery_tag,'DeliveryName')
                         DeliveryName.text = str(debtor['name'])
@@ -215,7 +215,7 @@ def GenerateXMLFile(invoices_list):
             # <OrderDetails>
             order_details_tag = ET.SubElement(items_tag,'OrderDetails')
             # <Item> 
-            print("============================Invoice Items===================")
+            # print("============================Invoice Items===================")
     
             items = models_object.execute_kw(db, uid, password,
                     'account.move.line', 'search_read',
