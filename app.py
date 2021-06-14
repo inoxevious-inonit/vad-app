@@ -39,6 +39,7 @@ def get_file():
     with open (fileName, "wb") as files :
         file = files.write(xml_file)
     file_path = full_path + '/' + fileName
+    print('file_path', file_path)
     return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
 
 
