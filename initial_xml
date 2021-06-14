@@ -1,5 +1,11 @@
 <BatchCollection 
 Jd4J2m2iaPcUXCN
+cd /var/www/html/
+source vad_env/bin/activate
+cd /var/www/html/vad/vad-app
+python app.py
+
+source /var/home/dfintech/virtualenv/repositories/vad-app/3.8/bin/activate && cd /var/home/dfintech/repositories/vad-app
 root@144.91.111.46
 env PATH=/var/www/html/vad_env/bin
 chdir /var/www/html/vad/vad-app
