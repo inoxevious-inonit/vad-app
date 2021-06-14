@@ -34,12 +34,12 @@ def get_file():
     print(application.root_path)
     full_path = os.path.join(application.root_path)
     print(full_path)
-    xml_file = tostring(xml_data)
+    xml_file = tostring(xml_data, encoding="ISO-8859-1", method="xml")
     fileName = 'training_gunnar_Invoice_file.xml'
     with open (fileName, "wb") as files :
         file = files.write(xml_file)
     file_path = full_path + '/' + fileName
-    return send_file(file_path, as_attachment=True, download_name='')
+    return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
 
 
 # define a function to

@@ -18,6 +18,7 @@ def GenerateXMLFile(invoices_list):
     date = datetime.now().strftime("%Y-%m-%d") # date object
     print("date:",date)
     print("time =", now)
+    
     tag = 'BatchCollection'
     elem = ET.Element(tag, {'xmlns':'http://www.dnbnorfinans.no/Factoring/2004',qname: NS2}, Version="3.0", DefinedBy="DnB NOR Finans")
     # elem.set('xmlns', 'http://www.dnbnorfinans.no/Factoring/2004')
