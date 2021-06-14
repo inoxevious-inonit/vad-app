@@ -33,12 +33,14 @@ def get_file():
     xml_data = GenerateXML(ids)
     print(application.root_path)
     full_path = os.path.join(application.root_path)
-    print(full_path)
+    DOWNLOADS_FOLDER = '/DOWNLOADS_FOLDER'
+    downloads_folder = full_path + DOWNLOADS_FOLDER
     xml_file = tostring(xml_data, encoding="ISO-8859-1", method="xml")
     fileName = 'training_gunnar_Invoice_file.xml'
-    with open (fileName, "wb") as files :
+    file_path = downloads_folder + '/' + fileName
+    with open (file_path, "wb") as files :
         file = files.write(xml_file)
-    file_path = full_path + '/' + fileName
+    
     print('file_path', file_path)
     if file_path is None:
         self.Error(400)
