@@ -45,8 +45,10 @@ def get_file():
     try:
         return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
     except Exception as e:
-        self.log.exception(e)
+        log = self.log.exception(e)
         self.Error(400)
+        return render_template("index.html", message=log)
+
     
 # define a function to
 # convert a simple dictionary
