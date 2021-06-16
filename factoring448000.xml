@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BatchCollection xmlns="http://www.dnbnorfinans.no/Factoring/2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD" Version="3.0" DefinedBy="DnB NOR Finans">
+ <TransferDateTime>2021-06-02T08:12:03</TransferDateTime>
+ <Batch>
+  <ClientId>09891</ClientId>
+  <ClientName>VAD AS</ClientName>
+  <BatchDate>2021-06-02</BatchDate>
+  <BatchNbr>1</BatchNbr>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Nord as</DebtorName>
+    <ClientDebtorNbr>7497</ClientDebtorNbr>
+    <DebtorVATNbr>NO 915 790 607 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 396</DebtorPostalAddr>
+    <DebtorSuplAddr>Tolder Holmers vei 6</DebtorSuplAddr>
+    <DebtorPostalCode>8001</DebtorPostalCode>
+    <DebtorCity>BODØ</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>75 58 87 00</DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Tore Lunde</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Nordlandssykehuset Lofoten</DeliveryName>
+    <DeliveryAddr>Sykehusbakken 23</DeliveryAddr>
+    <DeliveryPostalCode>8372</DeliveryPostalCode>
+    <DeliveryCity>GRAVDAL</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27187</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>30947</OrderRef>
+    <Kid>609891000271871</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>1165</ItemId>
+      <ItemDescr>Nexus Stol høy hel ryggnakkeputetr.løs regulering</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>8873</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>3992.85</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1172</ItemId>
+      <ItemDescr>Nexus Fotskammel med fast pute</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>2458</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>1106.1</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>5098.95</NetAmt>
+    <VATAmt>1274.74</VATAmt>
+    <TotalAmt>6373.69</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Nord as</DebtorName>
+    <ClientDebtorNbr>7497</ClientDebtorNbr>
+    <DebtorVATNbr>NO 915 790 607 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 396</DebtorPostalAddr>
+    <DebtorSuplAddr>Tolder Holmers vei 6</DebtorSuplAddr>
+    <DebtorPostalCode>8001</DebtorPostalCode>
+    <DebtorCity>BODØ</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>75 58 87 00</DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Tore Lunde</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland Nord as</DeliveryName>
+    <DeliveryAddr>Tolder Holmers vei 6</DeliveryAddr>
+    <DeliveryPostalCode>8001</DeliveryPostalCode>
+    <DeliveryCity>BODØ</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27188</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>30975</OrderRef>
+    <Kid>609891000271889</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>1233</ItemId>
+      <ItemDescr>Pivot Gap 2-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>16326</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>14693.4</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1215</ItemId>
+      <ItemDescr>Pivot Armlen/vange venstre sett forfralavpr.stk.</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1844</ItemId>
+      <ItemDescr>Pivot Armlen/vange høyre sett forfralav</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1233</ItemId>
+      <ItemDescr>Pivot Gap 2-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>10892</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>4901.4</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1232</ItemId>
+      <ItemDescr>Pivot Gap 15-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>9431</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>4243.95</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1231</ItemId>
+      <ItemDescr>Pivot Gap 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>9</NbrOfUnits>
+      <UnitPrice>13212</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>53508.6</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1215</ItemId>
+      <ItemDescr>Pivot Armlen/vange venstre sett forfralavpr.stk.</ItemDescr>
+      <NbrOfUnits>9</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1844</ItemId>
+      <ItemDescr>Pivot Armlen/vange høyre sett forfralav</ItemDescr>
+      <NbrOfUnits>9</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>24</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>77347.35</NetAmt>
+    <VATAmt>19336.84</VATAmt>
+    <TotalAmt>96684.19</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Norengros Palett AS</DebtorName>
+    <ClientDebtorNbr>10346</ClientDebtorNbr>
+    <DebtorVATNbr>NO 923 758 917 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Alfarvegen 20</DebtorPostalAddr>
+    <DebtorSuplAddr>Solheimveien 4</DebtorSuplAddr>
+    <DebtorPostalCode>2816</DebtorPostalCode>
+    <DebtorCity>GJØVIK</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>48000111/90709967</DebtorPhone>
+    <DebtorEmail>bjorn.pedersen@norengros.no</DebtorEmail>
+    <DebtorRef>Lillian Tran</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Norengros Palett AS</DeliveryName>
+    <DeliveryAddr>Alfarvegen 20</DeliveryAddr>
+    <DeliveryPostalCode>2816</DeliveryPostalCode>
+    <DeliveryCity>GJØVIK</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27189</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>30990</OrderRef>
+    <Kid>609891000271897</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>15550</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>14928</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1922</ItemId>
+      <ItemDescr>Pivot Armlen/Vange Venstre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1923</ItemId>
+      <ItemDescr>Pivot Armlen/vange Høyre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4142</ItemId>
+      <ItemDescr>Pivot 2-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>17662</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>8477.76</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1922</ItemId>
+      <ItemDescr>Pivot Armlen/Vange Venstre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1923</ItemId>
+      <ItemDescr>Pivot Armlen/vange Høyre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>14008</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>13447.68</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1922</ItemId>
+      <ItemDescr>Pivot Armlen/Vange Venstre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1923</ItemId>
+      <ItemDescr>Pivot Armlen/vange Høyre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>10</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>250.6</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>250.6</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>37104.04</NetAmt>
+    <VATAmt>9276.01</VATAmt>
+    <TotalAmt>46380.05</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Input Interior EFG Norway AS avd. Bergen</DebtorName>
+    <ClientDebtorNbr>7256</ClientDebtorNbr>
+    <DebtorVATNbr>NO 941 920 020 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Sandviksbodene 1B</DebtorPostalAddr>
+    <DebtorSuplAddr>c/o Relokator asSpelhaugen 20</DebtorSuplAddr>
+    <DebtorPostalCode>5035</DebtorPostalCode>
+    <DebtorCity>BERGEN</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>55 54 94 00</DebtorPhone>
+    <DebtorEmail>bergen@inputinterior.no</DebtorEmail>
+    <DebtorRef>Trond Hauge</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Input Interior EFG Norway AS avd. Bergen</DeliveryName>
+    <DeliveryAddr>c/o Relokator asSpelhaugen 20</DeliveryAddr>
+    <DeliveryPostalCode>5035</DeliveryPostalCode>
+    <DeliveryCity>BERGEN</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27190</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>30996</OrderRef>
+    <Kid>609891000271905</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>12851</UnitPrice>
+      <DiscPercent>54</DiscPercent>
+      <Amt>23645.84</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1922</ItemId>
+      <ItemDescr>Pivot Armlen/Vange Venstre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1923</ItemId>
+      <ItemDescr>Pivot Armlen/vange Høyre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4143</ItemId>
+      <ItemDescr>Pivot 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>19941</UnitPrice>
+      <DiscPercent>54</DiscPercent>
+      <Amt>9172.86</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1922</ItemId>
+      <ItemDescr>Pivot Armlen/Vange Venstre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1923</ItemId>
+      <ItemDescr>Pivot Armlen/vange Høyre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>10</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>223.17</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>223.17</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>33041.87</NetAmt>
+    <VATAmt>8260.47</VATAmt>
+    <TotalAmt>41302.34</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Vesterålen Kontorsenter as</DebtorName>
+    <ClientDebtorNbr>7195</ClientDebtorNbr>
+    <DebtorVATNbr>NO 975 256 545 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 333</DebtorPostalAddr>
+    <DebtorSuplAddr>Torget 8</DebtorSuplAddr>
+    <DebtorPostalCode>8401</DebtorPostalCode>
+    <DebtorCity>SORTLAND</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>76 11 10 10</DebtorPhone>
+    <DebtorEmail>johnny.andre@vks.as</DebtorEmail>
+    <DebtorRef>Alexander Øygård</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Vesterålen Kontorsenter as</DeliveryName>
+    <DeliveryAddr>Torget 8</DeliveryAddr>
+    <DeliveryPostalCode>8401</DeliveryPostalCode>
+    <DeliveryCity>SORTLAND</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27191</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31002</OrderRef>
+    <Kid>609891000271913</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4143</ItemId>
+      <ItemDescr>Pivot 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>12914</UnitPrice>
+      <DiscPercent>53</DiscPercent>
+      <Amt>6069.58</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4142</ItemId>
+      <ItemDescr>Pivot 2-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>9556</UnitPrice>
+      <DiscPercent>53</DiscPercent>
+      <Amt>4491.32</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4144</ItemId>
+      <ItemDescr>Pivot Hjørne element innvendig 90 grader</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>10386</UnitPrice>
+      <DiscPercent>53</DiscPercent>
+      <Amt>4881.42</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1218</ItemId>
+      <ItemDescr>Pivot Koblingsklave pr.par</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>3</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>6756</UnitPrice>
+      <DiscPercent>53</DiscPercent>
+      <Amt>6350.64</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>700bp</ItemId>
+      <ItemDescr>Bordplater</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>5843</UnitPrice>
+      <DiscPercent>53</DiscPercent>
+      <Amt>2746.21</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>166.87</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>166.87</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>24706.04</NetAmt>
+    <VATAmt>6176.52</VATAmt>
+    <TotalAmt>30882.55</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Norengros Palett AS</DebtorName>
+    <ClientDebtorNbr>10346</ClientDebtorNbr>
+    <DebtorVATNbr>NO 923 758 917 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Alfarvegen 20</DebtorPostalAddr>
+    <DebtorSuplAddr>Solheimveien 4</DebtorSuplAddr>
+    <DebtorPostalCode>2816</DebtorPostalCode>
+    <DebtorCity>GJØVIK</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>48000111/90709967</DebtorPhone>
+    <DebtorEmail>bjorn.pedersen@norengros.no</DebtorEmail>
+    <DebtorRef>Øystein Johannessen</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Norengros Palett AS</DeliveryName>
+    <DeliveryAddr>Borgeskogen 33</DeliveryAddr>
+    <DeliveryPostalCode>3160</DeliveryPostalCode>
+    <DeliveryCity>STOKKE</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27192</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31003</OrderRef>
+    <Kid>609891000271921</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>1632</ItemId>
+      <ItemDescr>Pivot Endeavslutning D-form</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>6437</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>3089.76</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1188</ItemId>
+      <ItemDescr>Pivot Hjørne element innvendig stort 90 grader</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>13232</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>6351.36</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4142</ItemId>
+      <ItemDescr>Pivot 2-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>9556</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>9173.76</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1923</ItemId>
+      <ItemDescr>Pivot Armlen/vange Høyre sett forfraLav (Ny)(6 cm)</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>2293</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>1100.64</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>3</NbrOfUnits>
+      <UnitPrice>216</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>311.04</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>216</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>103.68</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>216</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>103.68</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>216</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>103.68</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>138.3</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>138.3</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>20475.9</NetAmt>
+    <VATAmt>5118.98</VATAmt>
+    <TotalAmt>25594.88</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Norengros Palett AS</DebtorName>
+    <ClientDebtorNbr>10346</ClientDebtorNbr>
+    <DebtorVATNbr>NO 923 758 917 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Alfarvegen 20</DebtorPostalAddr>
+    <DebtorSuplAddr>Solheimveien 4</DebtorSuplAddr>
+    <DebtorPostalCode>2816</DebtorPostalCode>
+    <DebtorCity>GJØVIK</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>48000111/90709967</DebtorPhone>
+    <DebtorEmail>bjorn.pedersen@norengros.no</DebtorEmail>
+    <DebtorRef>Øystein Johannessen</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Norengros Palett AS</DeliveryName>
+    <DeliveryAddr>Borgeskogen 33</DeliveryAddr>
+    <DeliveryPostalCode>3160</DeliveryPostalCode>
+    <DeliveryCity>STOKKE</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27193</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31008</OrderRef>
+    <Kid>609891000271939</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>409stolua</ItemId>
+      <ItemDescr>Santana 1-seter uten armlener</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>11532</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>5535.36</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409av12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) VSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409ah12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) HSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4092sua</ItemId>
+      <ItemDescr>Santana 2-seter uten armlener</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>14065</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>6751.2</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409av12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) VSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409ah12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) HSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4093sua</ItemId>
+      <ItemDescr>Santana 3-seter uten armlener</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>16373</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>7859.04</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409av12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) VSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409ah12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) HSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>santbeinvalg</ItemId>
+      <ItemDescr>Santana Bein</ItemDescr>
+      <NbrOfUnits>12</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>136.99</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>136.99</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>20282.59</NetAmt>
+    <VATAmt>5070.65</VATAmt>
+    <TotalAmt>25353.24</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Sørlie Prosjektinnredninger AS</DebtorName>
+    <ClientDebtorNbr>7266</ClientDebtorNbr>
+    <DebtorVATNbr>NO 975 378 535 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Hundskinnveien 96</DebtorPostalAddr>
+    <DebtorSuplAddr>Albert Moeskausvei 59</DebtorSuplAddr>
+    <DebtorPostalCode>1711</DebtorPostalCode>
+    <DebtorCity>SARPSBORG</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>69 13 99 50</DebtorPhone>
+    <DebtorEmail>sorlie@sorliepro.no</DebtorEmail>
+    <DebtorRef>Ingar Olsen</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Sørlie Prosjektinnredninger AS</DeliveryName>
+    <DeliveryAddr>Albert Moeskausvei 59</DeliveryAddr>
+    <DeliveryPostalCode>1711</DeliveryPostalCode>
+    <DeliveryCity>SARPSBORG</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27194</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31022</OrderRef>
+    <Kid>609891000271947</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>1249</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>35207</UnitPrice>
+      <DiscPercent>56</DiscPercent>
+      <Amt>61964.32</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1254</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy vange venstre sett forfrapr.stk.</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1754</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy vange høyre sett forfrapr.stk.</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1249</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1283</ItemId>
+      <ItemDescr>Pivot Cave Koblingsvegg med bord (60/45x130 h.72 cm)</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>75221</UnitPrice>
+      <DiscPercent>56</DiscPercent>
+      <Amt>66194.48</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1254</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy vange venstre sett forfrapr.stk.</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1754</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy vange høyre sett forfrapr.stk.</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1249</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1283</ItemId>
+      <ItemDescr>Pivot Cave Koblingsvegg med bord (60/45x130 h.72 cm)</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>75221</UnitPrice>
+      <DiscPercent>56</DiscPercent>
+      <Amt>33097.24</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1254</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy vange venstre sett forfrapr.stk.</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1754</ItemId>
+      <ItemDescr>Pivot Cave Ekstra høy vange høyre sett forfrapr.stk.</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>20</NbrOfUnits>
+      <UnitPrice>216</UnitPrice>
+      <DiscPercent>56</DiscPercent>
+      <Amt>1900.8</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>1109.47</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>1109.47</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>164266.31</NetAmt>
+    <VATAmt>41066.58</VATAmt>
+    <TotalAmt>205332.89</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Midt-Norge AS</DebtorName>
+    <ClientDebtorNbr>10163</ClientDebtorNbr>
+    <DebtorVATNbr>NO 918 952 349 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Dronningens gt. 10b</DebtorPostalAddr>
+    <DebtorSuplAddr>c/o Iversen Spedisjon asHeggstadmoen 47</DebtorSuplAddr>
+    <DebtorPostalCode>7010</DebtorPostalCode>
+    <DebtorCity>TRONDHEIM</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>93410751</DebtorPhone>
+    <DebtorEmail>post@senabeikeland.no</DebtorEmail>
+    <DebtorRef>Katrine Rege</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland Midt-Norge AS</DeliveryName>
+    <DeliveryAddr>c/o R.Iversen TransportBreivika Industrivei 7</DeliveryAddr>
+    <DeliveryPostalCode>6018</DeliveryPostalCode>
+    <DeliveryCity>ÅLESUND</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27195</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31028</OrderRef>
+    <Kid>609891000271954</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4143</ItemId>
+      <ItemDescr>Pivot 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>11587</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>10428.3</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>10428.3</NetAmt>
+    <VATAmt>2607.08</VATAmt>
+    <TotalAmt>13035.38</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Nord as</DebtorName>
+    <ClientDebtorNbr>7497</ClientDebtorNbr>
+    <DebtorVATNbr>NO 915 790 607 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 396</DebtorPostalAddr>
+    <DebtorSuplAddr>Tolder Holmers vei 6</DebtorSuplAddr>
+    <DebtorPostalCode>8001</DebtorPostalCode>
+    <DebtorCity>BODØ</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>75 58 87 00</DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Tore Lunde</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland Nord as</DeliveryName>
+    <DeliveryAddr>Tolder Holmers vei 6</DeliveryAddr>
+    <DeliveryPostalCode>8001</DeliveryPostalCode>
+    <DeliveryCity>BODØ</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27196</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31030</OrderRef>
+    <Kid>609891000271962</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4142</ItemId>
+      <ItemDescr>Pivot 2-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>8623</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>3880.35</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1215</ItemId>
+      <ItemDescr>Pivot Armlen/vange venstre sett forfralavpr.stk.</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>2500</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>1125</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1844</ItemId>
+      <ItemDescr>Pivot Armlen/vange høyre sett forfralav</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>2500</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>1125</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4143</ItemId>
+      <ItemDescr>Pivot 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>11651</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>5242.95</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1215</ItemId>
+      <ItemDescr>Pivot Armlen/vange venstre sett forfralavpr.stk.</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>2500</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>1125</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1844</ItemId>
+      <ItemDescr>Pivot Armlen/vange høyre sett forfralav</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>2500</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>1125</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>13623.3</NetAmt>
+    <VATAmt>3405.83</VATAmt>
+    <TotalAmt>17029.13</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland BTV AS</DebtorName>
+    <ClientDebtorNbr>7814</ClientDebtorNbr>
+    <DebtorVATNbr>NO 917 578 087 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Storgaten 20</DebtorPostalAddr>
+    <DebtorSuplAddr>Borgeskogen 30B Tlf.47629818</DebtorSuplAddr>
+    <DebtorPostalCode>3126</DebtorPostalCode>
+    <DebtorCity>TØNSBERG</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>90954074</DebtorPhone>
+    <DebtorEmail>Logistikkstavanger@senabeikeland.no;</DebtorEmail>
+    <DebtorRef>Katrine Rege</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland BTV AS</DeliveryName>
+    <DeliveryAddr>Borgeskogen 30B Tlf.47629818</DeliveryAddr>
+    <DeliveryPostalCode>3126</DeliveryPostalCode>
+    <DeliveryCity>TØNSBERG</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27197</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31031</OrderRef>
+    <Kid>609891000271970</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4143</ItemId>
+      <ItemDescr>Pivot 3-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>12914</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>5811.3</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>5811.3</NetAmt>
+    <VATAmt>1452.83</VATAmt>
+    <TotalAmt>7264.13</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Maritime Montering as</DebtorName>
+    <ClientDebtorNbr>7140</ClientDebtorNbr>
+    <DebtorVATNbr>NO 868 150 742 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Dalsfjordven. 585</DebtorPostalAddr>
+    <DebtorSuplAddr>Dalsfjordvn. 585</DebtorSuplAddr>
+    <DebtorPostalCode>6977</DebtorPostalCode>
+    <DebtorCity>BYGSTAD</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>57 71 60 00</DebtorPhone>
+    <DebtorEmail>post@maritimemontering.no</DebtorEmail>
+    <DebtorRef>Dag Asle Boge</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Siem Marlin SIMA/21-0089</DeliveryName>
+    <DeliveryAddr>c/o Marine TransValhallavegen 6</DeliveryAddr>
+    <DeliveryPostalCode>2060</DeliveryPostalCode>
+    <DeliveryCity>GARDERMOEN</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27198</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31035</OrderRef>
+    <Kid>609891000271988</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>1144</ItemId>
+      <ItemDescr>Marin 200 Ørelappstol m/Gasslift og Glidere</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>13999</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>13439.04</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4092sua</ItemId>
+      <ItemDescr>Santana 2-seter uten armlener</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>15224</UnitPrice>
+      <DiscPercent>52</DiscPercent>
+      <Amt>7307.52</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409av12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) VSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409ah12</ItemId>
+      <ItemDescr>Santana armlen (12 cm) HSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>santbeinvalg</ItemId>
+      <ItemDescr>Santana Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>141.08</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>141.08</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>20887.64</NetAmt>
+    <VATAmt>5221.91</VATAmt>
+    <TotalAmt>26109.55</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Lindbak Helgeland AS</DebtorName>
+    <ClientDebtorNbr>7802</ClientDebtorNbr>
+    <DebtorVATNbr>NO 914 266 955 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 2435 Torgard</DebtorPostalAddr>
+    <DebtorSuplAddr>Moloveien 8</DebtorSuplAddr>
+    <DebtorPostalCode>7005</DebtorPostalCode>
+    <DebtorCity>TRONDHEIM</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>40004612</DebtorPhone>
+    <DebtorEmail>kundeservice@lindbak.no</DebtorEmail>
+    <DebtorRef>Ketil Monsen</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Lindbak Helgeland AS</DeliveryName>
+    <DeliveryAddr>Moloveien 8</DeliveryAddr>
+    <DeliveryPostalCode>7005</DeliveryPostalCode>
+    <DeliveryCity>TRONDHEIM</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27199</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31036</OrderRef>
+    <Kid>609891000271996</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>1083</ItemId>
+      <ItemDescr>Lean 2-seter med rygg og armlen på begge sider</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>20029</UnitPrice>
+      <DiscPercent>68</DiscPercent>
+      <Amt>6409.28</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1088</ItemId>
+      <ItemDescr>Lean 3-seter med rygg og armlen på begge sider</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>22225</UnitPrice>
+      <DiscPercent>68</DiscPercent>
+      <Amt>7112</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>leanbeinvalg</ItemId>
+      <ItemDescr>Lean Bein</ItemDescr>
+      <NbrOfUnits>8</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>91.94</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>91.94</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>13613.22</NetAmt>
+    <VATAmt>3403.31</VATAmt>
+    <TotalAmt>17016.53</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Kinnarps AS Fakturamottak (Trondheim)</DebtorName>
+    <ClientDebtorNbr>95100</ClientDebtorNbr>
+    <DebtorVATNbr>NO 983 060 072 mva</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 4050</DebtorPostalAddr>
+    <DebtorSuplAddr>Postboks 4050</DebtorSuplAddr>
+    <DebtorPostalCode>8608</DebtorPostalCode>
+    <DebtorCity>MO I RANA</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone></DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Ann-Elin Kalland</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Kinnarps as Avd. Trondheim</DeliveryName>
+    <DeliveryAddr>Industrivegen 53B</DeliveryAddr>
+    <DeliveryPostalCode>7444</DeliveryPostalCode>
+    <DeliveryCity>TRONDHEIM</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27200</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31037</OrderRef>
+    <Kid>609891000272002</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>1047</ItemId>
+      <ItemDescr>Delta II Ekstra avtagbart setetrekk (pr.sete)</ItemDescr>
+      <NbrOfUnits>5</NbrOfUnits>
+      <UnitPrice>2987</UnitPrice>
+      <DiscPercent>54</DiscPercent>
+      <Amt>6870.1</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1048</ItemId>
+      <ItemDescr>Delta II Ekstra avtagbart ryggtrekk Standard (pr.rygg)</ItemDescr>
+      <NbrOfUnits>5</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1047</ItemId>
+      <ItemDescr>Delta II Ekstra avtagbart setetrekk (pr.sete)</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>3168</UnitPrice>
+      <DiscPercent>54</DiscPercent>
+      <Amt>2914.56</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1049</ItemId>
+      <ItemDescr>Delta II Ekstra avtagbart ryggtrekk Wing (pr.rygg)</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>105na</ItemId>
+      <ItemDescr>Delta nakkepute i stoff</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1420</ItemId>
+      <ItemDescr>Overpute 2 cm m/ Inkont.Duk 40X40 cm m/Glidelås</ItemDescr>
+      <NbrOfUnits>7</NbrOfUnits>
+      <UnitPrice>1096</UnitPrice>
+      <DiscPercent>54</DiscPercent>
+      <Amt>3529.12</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>90.53</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>90.53</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>13404.31</NetAmt>
+    <VATAmt>3351.08</VATAmt>
+    <TotalAmt>16755.39</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Gangsø Eftf. AS</DebtorName>
+    <ClientDebtorNbr>7392</ClientDebtorNbr>
+    <DebtorVATNbr>NO 952 021 354 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Måløy Stormarked</DebtorPostalAddr>
+    <DebtorSuplAddr>Myrane 13 Måløy Stormarked</DebtorSuplAddr>
+    <DebtorPostalCode>6718</DebtorPostalCode>
+    <DebtorCity>DEKNEPOLLEN</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>57 85 15 66</DebtorPhone>
+    <DebtorEmail>maloy@fagmobler.no</DebtorEmail>
+    <DebtorRef>Per Gunnar</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Gangsø Eftf. AS</DeliveryName>
+    <DeliveryAddr>Myrane 13 Måløy Stormarked</DeliveryAddr>
+    <DeliveryPostalCode>6718</DeliveryPostalCode>
+    <DeliveryCity>DEKNEPOLLEN</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27201</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31039</OrderRef>
+    <Kid>609891000272010</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4092sua</ItemId>
+      <ItemDescr>Santana 2-seter uten armlener</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>12647</UnitPrice>
+      <DiscPercent>48</DiscPercent>
+      <Amt>13152.88</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>h4095sua</ItemId>
+      <ItemDescr>Santana Inv. Bue 90 gr</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>10253</UnitPrice>
+      <DiscPercent>48</DiscPercent>
+      <Amt>5331.56</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409av6</ItemId>
+      <ItemDescr>Santana armlen (6cm) VSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>409ah6</ItemId>
+      <ItemDescr>Santana armlen (6cm) HSSF</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>santbeinvalg</ItemId>
+      <ItemDescr>Santana Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>santbeinvalg</ItemId>
+      <ItemDescr>Santana Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>125.69</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>125.69</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>18610.13</NetAmt>
+    <VATAmt>4652.53</VATAmt>
+    <TotalAmt>23262.66</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Nord as</DebtorName>
+    <ClientDebtorNbr>7497</ClientDebtorNbr>
+    <DebtorVATNbr>NO 915 790 607 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 396</DebtorPostalAddr>
+    <DebtorSuplAddr>Tolder Holmers vei 6</DebtorSuplAddr>
+    <DebtorPostalCode>8001</DebtorPostalCode>
+    <DebtorCity>BODØ</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>75 58 87 00</DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Tore Lunde</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland Nord as</DeliveryName>
+    <DeliveryAddr>Tolder Holmers vei 6</DeliveryAddr>
+    <DeliveryPostalCode>8001</DeliveryPostalCode>
+    <DeliveryCity>BODØ</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27202</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31041</OrderRef>
+    <Kid>609891000272028</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>6120</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>5508</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>5508</NetAmt>
+    <VATAmt>1377</VATAmt>
+    <TotalAmt>6885</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Nord as</DebtorName>
+    <ClientDebtorNbr>7497</ClientDebtorNbr>
+    <DebtorVATNbr>NO 915 790 607 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 396</DebtorPostalAddr>
+    <DebtorSuplAddr>Tolder Holmers vei 6</DebtorSuplAddr>
+    <DebtorPostalCode>8001</DebtorPostalCode>
+    <DebtorCity>BODØ</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>75 58 87 00</DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Tore Lunde</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland Nord as</DeliveryName>
+    <DeliveryAddr>Tolder Holmers vei 6</DeliveryAddr>
+    <DeliveryPostalCode>8001</DeliveryPostalCode>
+    <DeliveryCity>BODØ</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27203</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31047</OrderRef>
+    <Kid>609891000272036</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>6756</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>12160.8</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>8</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>12160.8</NetAmt>
+    <VATAmt>3040.2</VATAmt>
+    <TotalAmt>15201</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Nord as</DebtorName>
+    <ClientDebtorNbr>7497</ClientDebtorNbr>
+    <DebtorVATNbr>NO 915 790 607 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 396</DebtorPostalAddr>
+    <DebtorSuplAddr>Tolder Holmers vei 6</DebtorSuplAddr>
+    <DebtorPostalCode>8001</DebtorPostalCode>
+    <DebtorCity>BODØ</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>75 58 87 00</DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Tore Lunde</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland Nord as</DeliveryName>
+    <DeliveryAddr>Tolder Holmers vei 6</DeliveryAddr>
+    <DeliveryPostalCode>8001</DeliveryPostalCode>
+    <DeliveryCity>BODØ</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27204</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31050</OrderRef>
+    <Kid>609891000272044</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4142</ItemId>
+      <ItemDescr>Pivot 2-seter uten armlen</ItemDescr>
+      <NbrOfUnits>3</NbrOfUnits>
+      <UnitPrice>8710</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>11758.5</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>4144</ItemId>
+      <ItemDescr>Pivot Hjørne element innvendig 90 grader</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>9653</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>4343.85</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>1218</ItemId>
+      <ItemDescr>Pivot Koblingsklave pr.par</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>3</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>16102.35</NetAmt>
+    <VATAmt>4025.59</VATAmt>
+    <TotalAmt>20127.94</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Senab Eikeland Nord as</DebtorName>
+    <ClientDebtorNbr>7497</ClientDebtorNbr>
+    <DebtorVATNbr>NO 915 790 607 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Postboks 396</DebtorPostalAddr>
+    <DebtorSuplAddr>Tolder Holmers vei 6</DebtorSuplAddr>
+    <DebtorPostalCode>8001</DebtorPostalCode>
+    <DebtorCity>BODØ</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>75 58 87 00</DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Tore Lunde</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Senab Eikeland Nord as</DeliveryName>
+    <DeliveryAddr>Tolder Holmers vei 6</DeliveryAddr>
+    <DeliveryPostalCode>8001</DeliveryPostalCode>
+    <DeliveryCity>BODØ</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27205</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31051</OrderRef>
+    <Kid>609891000272051</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>2</NbrOfUnits>
+      <UnitPrice>6756</UnitPrice>
+      <DiscPercent>55</DiscPercent>
+      <Amt>6080.4</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>pivotbeinvalg</ItemId>
+      <ItemDescr>Pivot Bein</ItemDescr>
+      <NbrOfUnits>4</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>0</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>0</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>6080.4</NetAmt>
+    <VATAmt>1520.1</VATAmt>
+    <TotalAmt>7600.5</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+  <Invoice>
+   <InvType>Invoice</InvType>
+   <InvCcy>NOK</InvCcy>
+   <Debtor>
+    <DebtorName>Lextor Marin AS</DebtorName>
+    <ClientDebtorNbr>7860</ClientDebtorNbr>
+    <DebtorVATNbr>NO 898 335 402 MVA</DebtorVATNbr>
+    <DebtorPostalAddr>Pb. 133</DebtorPostalAddr>
+    <DebtorSuplAddr>Bølandet</DebtorSuplAddr>
+    <DebtorPostalCode>6099</DebtorPostalCode>
+    <DebtorCity>FOSNAVÅG</DebtorCity>
+    <DebtorCtryCode>NO</DebtorCtryCode>
+    <DebtorPhone>951 31 132 </DebtorPhone>
+    <DebtorEmail></DebtorEmail>
+    <DebtorRef>Knut Johann Voldsund</DebtorRef>
+   </Debtor>
+   <DeliveryDetails>
+    <DeliveryName>Lextor Marin AS</DeliveryName>
+    <DeliveryAddr>Bølandet</DeliveryAddr>
+    <DeliveryPostalCode>6099</DeliveryPostalCode>
+    <DeliveryCity>FOSNAVÅG</DeliveryCity>
+    <DeliveryCtryCode>NO</DeliveryCtryCode>
+    <DeliveryDate>2021-06-01</DeliveryDate>
+    <DeliveryType>Bring Cargo</DeliveryType>
+    <DeliveryTerms>DDP</DeliveryTerms>
+   </DeliveryDetails>
+   <InvoiceHeader>
+    <InvNbr>27206</InvNbr>
+    <InvDate>2021-06-01</InvDate>
+    <DueDate>2021-07-01</DueDate>
+    <PmtTerms>
+     <PmtTermsText>Netto pr 30 dager</PmtTermsText>
+    </PmtTerms>
+    <OrderRef>31073</OrderRef>
+    <Kid>609891000272069</Kid>
+   </InvoiceHeader>
+   <Items>
+    <OrderDetails>
+     <Item>
+      <ItemId>4141</ItemId>
+      <ItemDescr>Pivot 1-seter uten armlen</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>5320</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>5320</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>mifra</ItemId>
+      <ItemDescr>Minstefrakt</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>750</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>750</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+     <Item>
+      <ItemId>ass</ItemId>
+      <ItemDescr>Assuranse</ItemDescr>
+      <NbrOfUnits>1</NbrOfUnits>
+      <UnitPrice>41.28</UnitPrice>
+      <DiscPercent>0</DiscPercent>
+      <Amt>41.28</Amt>
+      <VATPct>25</VATPct>
+     </Item>
+    </OrderDetails>
+   </Items>
+   <Total>
+    <NetAmt>6111.28</NetAmt>
+    <VATAmt>1527.82</VATAmt>
+    <TotalAmt>7639.1</TotalAmt>
+   </Total>
+   <AssignClause>Fordringer etter nærværende faktura er overdratt DNB Bank ASA Postboks 1600 Sentrum 0021 Oslo til eiendom. Befriende betaling kan kun skje til DNB Bank ASA. Bankkonto 7032.05.16038 Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandør.</AssignClause>
+  </Invoice>
+ </Batch>
+</BatchCollection>

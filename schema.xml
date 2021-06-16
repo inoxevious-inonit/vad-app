@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BatchCollection xmlns="http://www.dnbnorfinans.no/Factoring/2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD" Version="3.0" DefinedBy="DnB NOR Finans">
+    <TransferDateTime>2010-01-25T09:30:47</TransferDateTime>
+    <Batch>
+        <ClientId>12345</ClientId>
+        <ClientName>Bra Produkter AS</ClientName>
+        <BatchDate>2010-01-25</BatchDate>
+        <BatchNbr>11</BatchNbr>
+        <Invoice>
+            <InvType>Invoice</InvType>
+            <InvCcy>NOK</InvCcy>
+            <Debtor>
+                <DebtorName>Byggmester Hansen AS</DebtorName>
+                <ClientDebtorNbr>12345</ClientDebtorNbr>
+                <DebtorVATNbr>987654321</DebtorVATNbr>
+                <DebtorPostalAddr>Postboks 123</DebtorPostalAddr>
+                <DebtorSuplAddr>Storgt. 100B</DebtorSuplAddr>
+                <DebtorPostalCode>0101</DebtorPostalCode>
+                <DebtorCity>Oslo</DebtorCity>
+                <DebtorCtryCode>NO</DebtorCtryCode>
+                <DebtorPhone>22123456</DebtorPhone>
+                <DebtorMobile>99005500</DebtorMobile>
+                <DebtorEmail>post@byggmesterhansen.no</DebtorEmail>
+                <DebtorRef>Hansen Ole</DebtorRef>
+            </Debtor>
+            <DeliveryDetails>
+                <DeliveryName>Byggmester Hansen AS</DeliveryName>
+                <DeliveryAddr>Storgt. 100B</DeliveryAddr>
+                <DeliveryPostalCode>0101</DeliveryPostalCode>
+                <DeliveryCity>Oslo</DeliveryCity>
+                <DeliveryCtryCode>NO</DeliveryCtryCode>
+                <DeliveryDate>2010-01-25</DeliveryDate>
+                <DeliveryType>Bil</DeliveryType>
+                <DeliveryTerms>EXV</DeliveryTerms>
+            </DeliveryDetails>
+            <InvoiceHeader>
+                <InvRef>13285</InvRef>
+                <InvNbr>13285</InvNbr>
+                <InvDate>2010-01-25</InvDate>
+                <DueDate>2010-02-25</DueDate>
+                <PmtMethod/>
+                <PmtTerms>
+                    <PmtTermsText>30 days net</PmtTermsText>
+                </PmtTerms>
+                <OrderRef></OrderRef>
+                <Kid>41234500013285000005</Kid>
+            </InvoiceHeader>
+            <Items>
+                <OrderDetails>
+                    <Item>
+                        <ItemId>29811270</ItemId>
+                        <ItemDescr>SKRUEBITS 1/4&quot;PH 2X127 A1 AEG</ItemDescr>
+                        <NbrOfUnits>1</NbrOfUnits>
+                        <UnitPrice>50</UnitPrice>
+                        <DiscPercent>0</DiscPercent>
+                        <Amt>50</Amt>
+                        <VATPct>25</VATPct>
+                    </Item>
+                </OrderDetails>
+            </Items>
+            <Total>
+                <NetAmt>16432.75</NetAmt>
+                <VATAmt>4233.18</VATAmt>
+                <TotalAmt>21165.93</TotalAmt>
+            </Total>
+            <AssignClause>Fordringer etter n�rv�rende faktura er overdratt DnB NOR Bank ASA, Postboks 6579, Etterstad, 0607 Oslo, til eiendom. Befriende betaling kan kun skje til DnB NOR Finans, bankkonto 7032 05 16038. Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverand�r.</AssignClause>
+        </Invoice>
+    </Batch>      
+</BatchCollection>

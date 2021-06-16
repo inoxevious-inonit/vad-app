@@ -1,0 +1,11 @@
+<BatchCollection xmlns="http://www.dnbnorfinans.no/Factoring/2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefinedBy="DnB NOR Finans" Version="3.0" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD">
+    <TransferDateTime>2010-01-25T09:30:47</TransferDateTime>
+    <Batch>
+        <ClientId>12345</ClientId>
+        <ClientName>Bra Produkter AS</ClientName>
+        <BatchDate>2010-01-25</BatchDate>
+        <BatchNbr>11</BatchNbr>
+
+  
+    </Batch>      
+</BatchCollection>

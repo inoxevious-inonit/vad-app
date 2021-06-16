@@ -7,13 +7,14 @@ from xmlrpc.server import SimpleXMLRPCServer
 import wget
 import xmlrpc.client
 from xml.etree.ElementTree import Element,tostring
-
+from xml.etree import ElementTree as ET
 from generate_xml import GenerateXMLFile as xml_generator
 from utilities import *
 from flask import send_from_directory,send_file
 
 # create  
 application = Flask(__name__, template_folder='templates')
+
 
 @application.route("/")
 def hello():
@@ -22,33 +23,24 @@ def hello():
 @application.route('/api/xml_download', methods=['GET','POST'])
 def get_file():
     # request_json = request.get_json()("{",
-    request_json = request.args.get("records")
-    request_json =request_json.replace("{", "")
-    request_json =request_json.replace("}", "")
-    request_json =request_json.replace(",", " ")
-    print('request_json', request_json)
+	request_json = request.args.get("records")
+	request_json =request_json.replace("{", "")
+	request_json =request_json.replace("}", "")
+	request_json =request_json.replace(",", " ")
+	print('request_json', request_json)
 
-    ids = [int(n) for n in request_json.split()]
-    print('ids', ids)
-    xml_data = GenerateXML(ids)
-    print(application.root_path)
-    full_path = os.path.join(application.root_path)
-    DOWNLOADS_FOLDER = '/DOWNLOADS_FOLDER'
-    downloads_folder = full_path + DOWNLOADS_FOLDER
-    xml_file = tostring(xml_data, encoding="ISO-8859-1", method="xml")
-    fileName = 'training_gunnar_Invoice_file.xml'
-    file_path = downloads_folder + '/' + fileName
-    with open (file_path, "wb") as files :
-        file = files.write(xml_file)
-    
-    print('file_path', file_path)
-    if file_path is None:
-        self.Error(400)
-    try:
-        return send_file(file_path, as_attachment=True, download_name='Invoice_file.xml')
-        # return send_from_directory(directory=full_path, filename=fileName)
-    except Exception as e:
-        return render_template("index.html", message=e)
+	ids = [int(n) for n in request_json.split()]
+	print('ids', ids)
+	xml_file_name = GenerateXML(ids)
+
+	print('xml_file_name', xml_file_name)
+	if xml_file_name is None:
+		self.Error(400)
+	try:
+		return send_file(xml_file_name, as_attachment=True, download_name='Invoice_file.xml')
+		# return send_from_directory(directory=full_path, filename=fileName)
+	except Exception as e:
+		return render_template("index.html", message=e)
 
     
 # define a function to
@@ -56,11 +48,10 @@ def get_file():
 # of key/value pairs into XML
 def GenerateXML(ids) :
     try:
-        
-        xml_data = xml_generator(ids)
+        xml_file_name = xml_generator(ids)
     except Exception as err:
         print(err)
-    return xml_data
+    return xml_file_name
 
 # Driver Code
 if __name__ == "__main__": 

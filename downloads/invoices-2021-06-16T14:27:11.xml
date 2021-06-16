@@ -1,0 +1,78 @@
+<BatchCollection xmlns="http://www.dnbnorfinans.no/Factoring/2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefinedBy="DnB NOR Finans" Version="3.0" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD">
+    <TransferDateTime>2021-06-16T14:26:56</TransferDateTime>
+    <Batch>
+        <ClientId>09891</ClientId>
+        <ClientName>VAD AS</ClientName>
+        <BatchDate>2021-06-16</BatchDate>
+        <BatchNbr>11</BatchNbr>
+
+  
+    <Invoice>
+            <InvType>Invoice</InvType>
+            <InvCcy>NOK</InvCcy>
+            <Debtor>
+                <DebtorName>A-M&#248;bler AS, Anbudsavdeling</DebtorName>
+                <ClientDebtorNbr>464</ClientDebtorNbr>
+                <DebtorVATNbr>NO910082620MVA</DebtorVATNbr>
+                <DebtorPostalAddr>A-M&#248;bler AS, Anbudsavdeling
+Postboks 67, Alnabru
+
+0614 OSLO
+Norway</DebtorPostalAddr>
+                <DebtorSuplAddr>A-M&#248;bler AS, Anbudsavdeling
+Postboks 67, Alnabru
+
+0614 OSLO
+Norway</DebtorSuplAddr>
+                <DebtorPostalCode>0614</DebtorPostalCode>
+                <DebtorCity>OSLO</DebtorCity>
+                <DebtorCtryCode>NO</DebtorCtryCode>
+                <DebtorPhone>22880182</DebtorPhone>
+                <DebtorMobile>22880182</DebtorMobile>
+                <DebtorEmail>o.holter@a-mobler.no</DebtorEmail>
+                <DebtorRef>A-M&#248;bler AS, Anbudsavdeling</DebtorRef>
+            </Debtor>
+            <DeliveryDetails>
+                <DeliveryName>Byggmester Hansen AS</DeliveryName>
+                <DeliveryAddr>Storgt. 100B</DeliveryAddr>
+                <DeliveryPostalCode>0101</DeliveryPostalCode>
+                <DeliveryCity>Oslo</DeliveryCity>
+                <DeliveryCtryCode>NO</DeliveryCtryCode>
+                <DeliveryDate>2010-01-25</DeliveryDate>
+                <DeliveryType>Bil</DeliveryType>
+                <DeliveryTerms>EXV</DeliveryTerms>
+            </DeliveryDetails>
+            <InvoiceHeader>
+                <InvRef />
+                <InvNbr>28</InvNbr>
+                <InvDate>False</InvDate>
+                <DueDate>2021-07-16</DueDate>
+                <PmtMethod />
+                <PmtTerms>
+                    <PmtTermsText>30 Days</PmtTermsText>
+                </PmtTerms>
+                <OrderRef />
+                <Kid>464</Kid>
+            </InvoiceHeader>
+            <Items>
+                <OrderDetails>
+                    <Item>
+                        <ItemId>89</ItemId>
+                        <ItemDescr>/</ItemDescr>
+                        <NbrOfUnits>1.0</NbrOfUnits>
+                        <UnitPrice>-40.63</UnitPrice>
+                        <DiscPercent>0.0</DiscPercent>
+                        <Amt>-40.63</Amt>
+                        <VATPct>[]</VATPct>
+                    </Item>
+                </OrderDetails>
+            </Items>
+            <Total>
+                <NetAmt>32.5</NetAmt>
+                <VATAmt>8.13</VATAmt>
+                <TotalAmt>40.63</TotalAmt>
+            </Total>
+            <AssignClause>Fordringer etter n&#239;&#191;&#189;rv&#239;&#191;&#189;rende faktura er overdratt DnB NOR Bank ASA, Postboks 6579, Etterstad, 0607 Oslo, til eiendom. Befriende betaling kan kun skje til DnB NOR Finans, bankkonto 7032 05 16038. Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverand&#239;&#191;&#189;r.</AssignClause>
+        </Invoice>
+    </Batch>      
+</BatchCollection>

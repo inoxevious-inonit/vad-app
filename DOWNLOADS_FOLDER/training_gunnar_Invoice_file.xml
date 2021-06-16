@@ -1,22 +1,2 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
-<BatchCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefinedBy="DnB NOR Finans" Version="3.0" xmlns="http://www.dnbnorfinans.no/Factoring/2004" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD"><TransferDateTime>2021-06-14T13:50:04</TransferDateTime><Batch><ClientId>09891</ClientId><ClientName>VAD AS</ClientName><BatchDate>2021-06-14</BatchDate><BatchNbr>1</BatchNbr><Invoice><InvType>Invoice</InvType><InvCcy>NOK</InvCcy><InvoiceHeader><InvNbr>INV/2021/05/0002</InvNbr><InvDate>2021-05-24</InvDate><DueDate>2021-05-24</DueDate><PmtTerms><PmtTermsText>[1, 'Immediate Payment']</PmtTermsText></PmtTerms><OrderRef /><Kid>79</Kid></InvoiceHeader><Items><OrderDetails><Item><ItemId /><ItemDescr>INV/2021/05/0002 1017 - Pivot Step, 2-seater, left back low and right back high + 3-seater, left corner high, mid back high and right back low (Prisgruppe A)
-
-Stoff Sete: Advantage, Camira (C)
-Stoff Rygg: Advantage, Camira (C)
-Pivot Koblinger: 2139 - Pivot, ingen kobling
-Pivot Ben: 1217 - Pivot, bøyleben, pulverlakkert Ultrashine</ItemDescr><NbrOfUnits>2.0</NbrOfUnits><UnitPrice>13.0</UnitPrice><DiscPercent>50.0</DiscPercent><Amt>16.25</Amt><VATPct>0.0</VATPct></Item><Item><ItemId /><ItemDescr>INV/2021/05/0002 1018 - Pivot Step, 2-seater, left back low and right back high + 2-seater, left corner high and right back low (Prisgruppe A)
-
-Stoff Sete: Advantage, Camira (C)
-Stoff Rygg: Advantage, Camira (C)
-Pivot Koblinger: 2139 - Pivot, ingen kobling
-Pivot Ben: 1217 - Pivot, bøyleben, pulverlakkert Ultrashine</ItemDescr><NbrOfUnits>2.0</NbrOfUnits><UnitPrice>13.0</UnitPrice><DiscPercent>50.0</DiscPercent><Amt>16.25</Amt><VATPct>0.0</VATPct></Item><Item><ItemId /><ItemDescr>INV/2021/05/0002 3 Utgående mva høy sats 25%</ItemDescr><NbrOfUnits>1.0</NbrOfUnits><UnitPrice>6.5</UnitPrice><DiscPercent>0.0</DiscPercent><Amt>6.5</Amt><VATPct>26.0</VATPct></Item><Item><ItemId /><ItemDescr>INV/2021/05/0002 INV/2021/05/0002</ItemDescr><NbrOfUnits>1.0</NbrOfUnits><UnitPrice>-32.5</UnitPrice><DiscPercent>0.0</DiscPercent><Amt>-32.5</Amt><VATPct>0.0</VATPct></Item></OrderDetails></Items></Invoice><Invoice><InvType>Invoice</InvType><InvCcy>NOK</InvCcy><InvoiceHeader><InvNbr>INV/2021/05/0002</InvNbr><InvDate>2021-05-24</InvDate><DueDate>2021-05-24</DueDate><PmtTerms><PmtTermsText>[1, 'Immediate Payment']</PmtTermsText></PmtTerms><OrderRef /><Kid>79</Kid></InvoiceHeader><Items><OrderDetails><Item><ItemId /><ItemDescr>INV/2021/05/0002 1017 - Pivot Step, 2-seater, left back low and right back high + 3-seater, left corner high, mid back high and right back low (Prisgruppe A)
-
-Stoff Sete: Advantage, Camira (C)
-Stoff Rygg: Advantage, Camira (C)
-Pivot Koblinger: 2139 - Pivot, ingen kobling
-Pivot Ben: 1217 - Pivot, bøyleben, pulverlakkert Ultrashine</ItemDescr><NbrOfUnits>2.0</NbrOfUnits><UnitPrice>13.0</UnitPrice><DiscPercent>50.0</DiscPercent><Amt>16.25</Amt><VATPct>0.0</VATPct></Item><Item><ItemId /><ItemDescr>INV/2021/05/0002 1018 - Pivot Step, 2-seater, left back low and right back high + 2-seater, left corner high and right back low (Prisgruppe A)
-
-Stoff Sete: Advantage, Camira (C)
-Stoff Rygg: Advantage, Camira (C)
-Pivot Koblinger: 2139 - Pivot, ingen kobling
-Pivot Ben: 1217 - Pivot, bøyleben, pulverlakkert Ultrashine</ItemDescr><NbrOfUnits>2.0</NbrOfUnits><UnitPrice>13.0</UnitPrice><DiscPercent>50.0</DiscPercent><Amt>16.25</Amt><VATPct>0.0</VATPct></Item><Item><ItemId /><ItemDescr>INV/2021/05/0002 3 Utgående mva høy sats 25%</ItemDescr><NbrOfUnits>1.0</NbrOfUnits><UnitPrice>6.5</UnitPrice><DiscPercent>0.0</DiscPercent><Amt>6.5</Amt><VATPct>26.0</VATPct></Item><Item><ItemId /><ItemDescr>INV/2021/05/0002 INV/2021/05/0002</ItemDescr><NbrOfUnits>1.0</NbrOfUnits><UnitPrice>-32.5</UnitPrice><DiscPercent>0.0</DiscPercent><Amt>-32.5</Amt><VATPct>0.0</VATPct></Item></OrderDetails></Items></Invoice></Batch></BatchCollection>
+<BatchCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefinedBy="DnB NOR Finans" Version="3.0" xmlns="http://www.dnbnorfinans.no/Factoring/2004" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD"><TransferDateTime>2021-06-15T09:13:11</TransferDateTime><Batch><ClientId>09891</ClientId><ClientName>VAD AS</ClientName><BatchDate>2021-06-15</BatchDate><BatchNbr>1</BatchNbr><Invoice><InvType>Invoice</InvType><InvCcy>NOK</InvCcy></Invoice><Invoice><InvType>Invoice</InvType><InvCcy>NOK</InvCcy></Invoice></Batch></BatchCollection>
