@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:BatchCollection xmlns:ns0="http://www.dnbnorfinans.no/Factoring/2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefinedBy="DnB NOR Finans" Version="3.0" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD">
+    <ns0:TransferDateTime>2021-06-17T15:18:36</ns0:TransferDateTime>
+    <ns0:Batch>
+        <ns0:ClientId>09891</ns0:ClientId>
+        <ns0:ClientName>VAD AS</ns0:ClientName>
+        <ns0:BatchDate>2021-06-17</ns0:BatchDate>
+        <ns0:BatchNbr>11</ns0:BatchNbr>
+
+  
+    </ns0:Batch>      
+</ns0:BatchCollection>

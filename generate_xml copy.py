@@ -1,6 +1,7 @@
 import os
 from datetime import datetime
 from xml.etree import ElementTree as ET
+import lxml.etree as et
 from utilities import *
 NS1 = "http://www.w3.org/2001/XMLSchema-instance" 
 NS2 = "http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD"

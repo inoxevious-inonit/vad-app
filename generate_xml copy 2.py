@@ -3,7 +3,7 @@ from datetime import datetime
 from xml.etree import ElementTree as ET
 from utilities import *
 from flask import Flask
-from lxml import etree as et
+import lxml.etree as et
 application = Flask(__name__, template_folder='templates')
 
 NS1 = "http://www.w3.org/2001/XMLSchema-instance" 
@@ -22,8 +22,6 @@ def GenerateXMLFile(invoices_list):
     root = schema_tree.getroot()
     sampple_schems = ET.parse('factoring448000.xml')
     sample_root = sampple_schems.getroot()
-    xmlroot = root
-    print('xmlroot',xmlroot)
     try:
 
         invoice_tree = ET.parse('Invoice.xml')
@@ -53,12 +51,12 @@ def GenerateXMLFile(invoices_list):
         )
         # print('inv bdert', debtors)
         for rec in invoices_list:
-            # print('rec', rec)
+            print('rec', rec)
             record = models_object.execute_kw(db, uid, password,
                 'account.move', 'read', [rec])
             for invoice in record:
                 # print('invoice', invoice)
-                # print('dsop',invoice['invoice_partner_display_name'])
+                print('dsop',invoice['invoice_partner_display_name'])
                 partner_id = invoice['commercial_partner_id'][0]
                 debtors = models_object.execute_kw(db, uid, password,
                 'res.partner', 'search_read',
@@ -84,9 +82,9 @@ def GenerateXMLFile(invoices_list):
                     if invoice_tag.tag =='{http://www.dnbnorfinans.no/Factoring/2004}Debtor':
 
                         Debtor_element = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}Debtor/{http://www.dnbnorfinans.no/Factoring/2004}DebtorName")
-                        # print('debt eleme', Debtor_element.tag)
+                        print('debt eleme', Debtor_element.tag)
                         Debtor_n_element = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}Debtor/{http://www.dnbnorfinans.no/Factoring/2004}DebtorName")
-                        # print(Debtor_n_element.text)
+                        print(Debtor_n_element.text)
                         # print('debtors', debtors)
                         for debtor in debtors:
                             # print('debtttt', debtor)
@@ -131,7 +129,7 @@ def GenerateXMLFile(invoices_list):
             
                             
                         for sale_data in sales:
-                            # print('sale_data', sale_data)
+                            print('sale_data', sale_data)
                             # print("sale_data['partner_id'][1]", sale_data['partner_id'][1])
                             # print("invoice['invoice_partner_display_name']", invoice['invoice_partner_display_name'])
                             print("sale_data['partner_invoice_id'][0]", sale_data['partner_invoice_id'][0])
@@ -205,16 +203,16 @@ def GenerateXMLFile(invoices_list):
                     TotalAmt = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}Total/{http://www.dnbnorfinans.no/Factoring/2004}TotalAmt")
                     TotalAmt.text = str(invoice['amount_total'])
 
-                # print('invoice name',invoice['invoice_partner_display_name'])
-                # batch.append(invoice_element)
-                # print("invoice appended",invoice_element)
+                print('invoice name',invoice['invoice_partner_display_name'])
+                batch.append(invoice_element)
+                print("invoice appended",invoice_element)
         xml_file = 'invoices-' + str(datetime.now().strftime("%Y-%m-%dT%H:%M:%S")) + '.xml'
         full_path = os.path.join(application.root_path)
         downloads = '/downloads'
         downloads_folder = full_path + downloads
         absolute_file_path = downloads_folder + '/' + xml_file
         print('absolute_file_path', absolute_file_path)
-        invoice_tree.write(absolute_file_path, xml_declaration=True, encoding='utf-8')
+        invoice_tree.write(absolute_file_path, xml_declaration=True, encoding='ISO-8859-1')
 
     except Exception as err:
         print(err)
