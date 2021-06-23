@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BatchCollection xmlns="http://www.dnbnorfinans.no/Factoring/2004" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DefinedBy="DnB NOR Finans" Version="3.0" xsi:schemaLocation="http://www.dnbnorfinans.no/Factoring/2004 FACTINV-3-0.XSD">
+    <TransferDateTime>2021-06-23T10:53:15</TransferDateTime>
+    <Batch>
+        <ClientId>09891</ClientId>
+        <ClientName>VAD AS</ClientName>
+        <BatchDate>2021-06-23</BatchDate>
+        <BatchNbr>11</BatchNbr>
+
+  
+    <Invoice>
+            <InvType>Invoice</InvType>
+            <InvCcy>NOK</InvCcy>
+            <Debtor>
+                <DebtorName>Byggmester Hansen AS</DebtorName>
+                <ClientDebtorNbr>12345</ClientDebtorNbr>
+                <DebtorVATNbr>987654321</DebtorVATNbr>
+                <DebtorPostalAddr>Postboks 123</DebtorPostalAddr>
+                <DebtorSuplAddr>Storgt. 100B</DebtorSuplAddr>
+                <DebtorPostalCode>0101</DebtorPostalCode>
+                <DebtorCity>Oslo</DebtorCity>
+                <DebtorCtryCode>NO</DebtorCtryCode>
+                <DebtorPhone>22123456</DebtorPhone>
+                <DebtorMobile>99005500</DebtorMobile>
+                <DebtorEmail>post@byggmesterhansen.no</DebtorEmail>
+                <DebtorRef>Hansen Ole</DebtorRef>
+            </Debtor>
+            <DeliveryDetails>
+                <DeliveryName>Byggmester Hansen AS</DeliveryName>
+                <DeliveryAddr>Storgt. 100B</DeliveryAddr>
+                <DeliveryPostalCode>0101</DeliveryPostalCode>
+                <DeliveryCity>Oslo</DeliveryCity>
+                <DeliveryCtryCode>NO</DeliveryCtryCode>
+                <DeliveryDate>2010-01-25</DeliveryDate>
+                <DeliveryType>Bil</DeliveryType>
+                <DeliveryTerms>EXV</DeliveryTerms>
+            </DeliveryDetails>
+            <InvoiceHeader>
+                <InvRef>13285</InvRef>
+                <InvNbr>13285</InvNbr>
+                <InvDate>2010-01-25</InvDate>
+                <DueDate>2010-02-25</DueDate>
+                <PmtMethod />
+                <PmtTerms>
+                    <PmtTermsText>30 days net</PmtTermsText>
+                </PmtTerms>
+                <OrderRef />
+                <Kid>41234500013285000005</Kid>
+            </InvoiceHeader>
+            <Items>
+                <OrderDetails>
+                    <Item>
+                        <ItemId>71</ItemId>
+                        <ItemDescr>INV/2021/05/0001 (Kundens referanse)</ItemDescr>
+                        <NbrOfUnits>1.0</NbrOfUnits>
+                        <UnitPrice>-15.01</UnitPrice>
+                        <DiscPercent>0.0</DiscPercent>
+                        <Amt>-15.01</Amt>
+                        <VATPct>[]</VATPct>
+                    </Item>
+                </OrderDetails>
+            </Items>
+            <Total>
+                <NetAmt>12.0</NetAmt>
+                <VATAmt>3.01</VATAmt>
+                <TotalAmt>15.01</TotalAmt>
+            </Total>
+            <AssignClause>Fordringer etter nï¿½rvï¿½rende faktura er overdratt DnB NOR Bank ASA, Postboks 6579, Etterstad, 0607 Oslo, til eiendom. Befriende betaling kan kun skje til DnB NOR Finans, bankkonto 7032 05 16038. Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandï¿½r.</AssignClause>
+        </Invoice>
+    <Invoice>
+            <InvType>Invoice</InvType>
+            <InvCcy>NOK</InvCcy>
+            <Debtor>
+                <DebtorName>Byggmester Hansen AS</DebtorName>
+                <ClientDebtorNbr>12345</ClientDebtorNbr>
+                <DebtorVATNbr>987654321</DebtorVATNbr>
+                <DebtorPostalAddr>Postboks 123</DebtorPostalAddr>
+                <DebtorSuplAddr>Storgt. 100B</DebtorSuplAddr>
+                <DebtorPostalCode>0101</DebtorPostalCode>
+                <DebtorCity>Oslo</DebtorCity>
+                <DebtorCtryCode>NO</DebtorCtryCode>
+                <DebtorPhone>22123456</DebtorPhone>
+                <DebtorMobile>99005500</DebtorMobile>
+                <DebtorEmail>post@byggmesterhansen.no</DebtorEmail>
+                <DebtorRef>Hansen Ole</DebtorRef>
+            </Debtor>
+            <DeliveryDetails>
+                <DeliveryName>Byggmester Hansen AS</DeliveryName>
+                <DeliveryAddr>Storgt. 100B</DeliveryAddr>
+                <DeliveryPostalCode>0101</DeliveryPostalCode>
+                <DeliveryCity>Oslo</DeliveryCity>
+                <DeliveryCtryCode>NO</DeliveryCtryCode>
+                <DeliveryDate>2010-01-25</DeliveryDate>
+                <DeliveryType>Bil</DeliveryType>
+                <DeliveryTerms>EXV</DeliveryTerms>
+            </DeliveryDetails>
+            <InvoiceHeader>
+                <InvRef>13285</InvRef>
+                <InvNbr>13285</InvNbr>
+                <InvDate>2010-01-25</InvDate>
+                <DueDate>2010-02-25</DueDate>
+                <PmtMethod />
+                <PmtTerms>
+                    <PmtTermsText>30 days net</PmtTermsText>
+                </PmtTerms>
+                <OrderRef />
+                <Kid>41234500013285000005</Kid>
+            </InvoiceHeader>
+            <Items>
+                <OrderDetails>
+                    <Item>
+                        <ItemId>71</ItemId>
+                        <ItemDescr>INV/2021/05/0001 (Kundens referanse)</ItemDescr>
+                        <NbrOfUnits>1.0</NbrOfUnits>
+                        <UnitPrice>-15.01</UnitPrice>
+                        <DiscPercent>0.0</DiscPercent>
+                        <Amt>-15.01</Amt>
+                        <VATPct>[]</VATPct>
+                    </Item>
+                </OrderDetails>
+            </Items>
+            <Total>
+                <NetAmt>12.0</NetAmt>
+                <VATAmt>3.01</VATAmt>
+                <TotalAmt>15.01</TotalAmt>
+            </Total>
+            <AssignClause>Fordringer etter nï¿½rvï¿½rende faktura er overdratt DnB NOR Bank ASA, Postboks 6579, Etterstad, 0607 Oslo, til eiendom. Befriende betaling kan kun skje til DnB NOR Finans, bankkonto 7032 05 16038. Ved betaling vennligst oppgi KIDreferanse eller fakturanummer og leverandï¿½r.</AssignClause>
+        </Invoice>
+    </Batch>      
+</BatchCollection>
