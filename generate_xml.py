@@ -173,18 +173,26 @@ def GenerateXMLFile(invoices_list):
                                 delivery_tags.text = sale_data['type_name']
                                 delivery_tags = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}DeliveryDetails/{http://www.dnbnorfinans.no/Factoring/2004}DeliveryTerms")
                                 delivery_tags.text = sale_data['type_name']
+                                print("delivery_tags.text =", debtor['name'])
 
                     if invoice_tag.tag =='{http://www.dnbnorfinans.no/Factoring/2004}InvoiceHeader':
                         InvRef = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}InvoiceHeader/{http://www.dnbnorfinans.no/Factoring/2004}InvRef")
                         InvRef.text = invoice['ref'] 
                         InvNbr = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}InvoiceHeader/{http://www.dnbnorfinans.no/Factoring/2004}InvNbr")
-                        InvNbr.text = str(invoice['id'])
+                        InvNbr.text =  str(invoice['id'])
                         InvDate = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}InvoiceHeader/{http://www.dnbnorfinans.no/Factoring/2004}InvDate")
-                        InvDate.text = str(invoice['invoice_date'] )
+                        InvDate.text = str(invoice['invoice_date'])
                         DueDate = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}InvoiceHeader/{http://www.dnbnorfinans.no/Factoring/2004}DueDate")
-                        DueDate.text = str(invoice['invoice_date_due'])   
+                        DueDate.text = str(invoice['invoice_date_due'])
                         PmtTermsText = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}InvoiceHeader/{http://www.dnbnorfinans.no/Factoring/2004}PmtTerms/{http://www.dnbnorfinans.no/Factoring/2004}PmtTermsText")
-                        PmtTermsText.text = str(invoice['invoice_payment_term_id'][1])
+                        if invoice['invoice_payment_term_id']:
+                            PmtTermsText.text =  str(invoice['invoice_payment_term_id'][1])
+                            print("if PmtTermsText.text = ", str(invoice['invoice_payment_term_id'][1]))
+                        else:
+                            PmtTermsText.text = str(invoice['invoice_payment_term_id'])
+                            print("if PmtTermsText.text = ", str(invoice['invoice_payment_term_id']))
+
+                        # print("PmtTermsText.text = ", str(invoice['invoice_payment_term_id'][1]))
 
                         # ValueDate = root.find("./{http://www.dnbnorfinans.no/Factoring/2004}Batch/{http://www.dnbnorfinans.no/Factoring/2004}Invoice/{http://www.dnbnorfinans.no/Factoring/2004}InvoiceHeader/{http://www.dnbnorfinans.no/Factoring/2004}ValueDate")
                         # ValueDate.text = invoice['invoice_partner_display_name']

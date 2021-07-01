@@ -1,0 +1,125 @@
+<!DOCTYPE document SYSTEM "rml_1_0.dtd">
+
+<document filename="invoice bundle.pdf">
+
+<template pageSize="(842, 595)" leftMargin="0" rightMargin="0" showBoundary="0">
+    <pageTemplate id="first">
+        <pageGraphics>
+            <image file="{{RML_DIR}}/rml/vad logo.png" x="50" y="500" width="300" height="60"/>
+            <setFont name="Helvetica-Oblique" size="4"/>
+            <fill color="0x00337f"/>
+            <fill color="0x1E4C9C"/>
+            <drawString x="57" y="30">VAT Reg No.:&nbsp;&nbsp;&nbsp;GR1234567890</drawString>
+        </pageGraphics>
+        <!--get these right using showboundary-->
+        <frame id ="main_content" x1="50" y1="0" width="750" height="490"/>
+    </pageTemplate>
+</template>
+
+<stylesheet>
+    <paraStyle name="normal" fontName="Helvetica" fontSize="12" leading="14" alignment="JUSTIFY" textColor="black"/>
+    <paraStyle name="title" fontName="Helvetica-Bold" fontSize="20" leading="24" alignment="center" textColor="#1E4C9C" spaceAfter="20"/>
+    <paraStyle name="right" parent="normal" alignment="RIGHT"/>
+    <paraStyle name="footer" parent="normal" fontSize="9" leading="10"/>
+    <paraStyle name="table_normal" fontName="Helvetica" fontSize="11" leading="13"/>
+    <paraStyle name="table_desc_pt2" fontName="Helvetica" fontSize="9" leading="11"/>
+
+    <!--Table for bank details-->
+    <blockTableStyle id="detailtable" spaceAfter="10">
+        <blockFont name="Helvetica" size="11" leading="15"/>
+        <blockTextColor colorName="black"/>
+        <lineStyle kind="None" colorName="black" thickness="0.5" start="0,0" stop="-1,-1"/>
+        <blockValign value="TOP" start="0,0" stop="-1,0"/>
+    </blockTableStyle>
+    
+    <blockTableStyle id="banktable" spaceAfter="10">
+        <lineStyle kind="OUTLINE" colorName="0x1E4C9C" thickness="1" start="0,0" stop="-1,-1"/>
+        <blockValign value="TOP" start="0,0" stop="-1,-1"/>
+        <blockTopPadding length="8"/>
+        <blockBottomPadding length="15"/>
+        <blockLeftPadding length="15"/>
+        <blockRightPadding length="15"/>
+    </blockTableStyle>
+    <blockTableStyle id="invoicetable" spaceAfter="10">
+        <blockFont name="Helvetica" size="11" leading="13"/>
+        <blockTextColor colorName="black"/>
+        <lineStyle kind="LINEBELOW" colorName="grey" start="0,0" stop="-1,-2" thickness="0.2"/>
+        <blockTopPadding length="10" start="0,1" stop="-1,-1"/>
+        <blockBottomPadding length="10" start="0,1" stop="-1,-1"/>
+        <!-- top row centered, bold and white on blue-->
+        <blockAlignment value="center" start="0,0" stop="-1,0"/>
+        <blockBackground colorName="#1E4C9C" start="0,0" stop="-1,0"/>
+        <blockFont name="Helvetica-Bold" size="11" leading="15" start="0,0" stop="-1,0"/>
+        <blockTextColor colorName="white" start="0,0" stop="-1,0"/>
+        <!-- black line above the bottom row -->
+        <lineStyle kind="LINEBELOW" colorName="black" start="0,-1" stop="-1,-1" thickness="1"/>
+    </blockTableStyle>
+        <blockTableStyle id="totalBodyTableStyle" spaceAfter="10">
+        <blockFont name="Helvetica" size="11" leading="13"/>
+        <blockTextColor colorName="black"/>
+        <blockValign value="TOP" start="0,0" stop="-1,-1"/>
+        <blockAlignment value="center" start="0,0" stop="-1,0"/>
+        <lineStyle kind="LINEBELOW" colorName="black" start="-2,-1" stop="-1,-1" thickness="1"/>
+        <blockBottomPadding length="20" start="-1,0" stop="-1,-1"/>
+    </blockTableStyle>
+</stylesheet>
+
+<story>
+<para style="title">Invoices Bundle</para>
+<blockTable style="detailtable" colWidths="100%">
+    <tr>
+        <td rightPadding="50">
+            <spacer length="10"/>
+            <para style="right"><b>Periode:</b>    {{data.start_date}} - {{data.end_date}}</para>
+            <para style="right"><b>Kundenr:</b>    VAD</para>
+        </td>
+    </tr>
+</blockTable>
+    <blockTable style="invoicetable" colWidths="100%">
+        <tr>
+            <td align="LEFT">Faktura nr</td>
+            <td align="LEFT">Fakturadato</td>
+            <td align="LEFT">Forfallsdato</td>
+            <td><para  style="table_normal" textColor="white"><b>Betalingsbetingelser</b></para></td>
+            <td align="LEFT">Kundenr</td>
+            <td align="LEFT">Kunde</td>
+            <td align="DECIMAL">Netto</td>
+            <td align="DECIMAL">MVA</td>
+            <td align="DECIMAL">Brutto</td>
+        </tr>
+
+    {{for item in (data.orders)}}
+        <tr>
+            <td align="CENTER" vAlign="top">{{item.invoice_id}}</td>
+            <td align="DECIMAL" rightPadding="20" vAlign="top">{{item.invoice_date}}</td>  
+            <td align="CENTER" vAlign="top">{{item.invoice_date_due}}</td>
+            <td><para style="table_normal">{{item.payement_terms}}</para></td>
+            <td><para style="table_normal">{{item.partner_id}}</para></td>
+            <td><para style="table_normal">{{item.partner_name}}</para></td>
+            <td align="DECIMAL" rightPadding="15" vAlign="top">{{item.amount_untaxed}}</td>
+            <td align="DECIMAL" rightPadding="15" vAlign="top">{{item.amount_tax}}</td>
+            <td align="DECIMAL" rightPadding="15" vAlign="top">{{item.amount_total}}</td>
+        </tr>
+    {{endfor}}
+
+    </blockTable>
+
+    <spacer length="10"/>
+  
+    <blockTable style="totalBodyTableStyle" rowHeights="30" colWidths="100%" >
+        <tr>
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td align="CENTER"><para  style="table_normal" textColor="black"><b>Gross Total</b></para></td>
+            <td align="DECIMAL" vAlign="top" >{{data.total_untaxed}}</td>
+            <td align="DECIMAL" vAlign="top" >{{data.total_tax}}</td>
+            <td align="DECIMAL" vAlign="top" >{{data.Belop}}</td>
+        </tr>    
+    </blockTable>
+
+<nextFrame/>
+    </story>
+</document>
